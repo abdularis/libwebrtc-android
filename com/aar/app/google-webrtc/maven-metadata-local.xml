@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.aar.app</groupId>
+  <artifactId>google-webrtc</artifactId>
+  <versioning>
+    <release>M72</release>
+    <versions>
+      <version>M72</version>
+    </versions>
+    <lastUpdated>20190402093141</lastUpdated>
+  </versioning>
+</metadata>

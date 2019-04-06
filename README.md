@@ -1,6 +1,8 @@
 # libwebrtc-android
 
-This is precompiled google webrtc android library, [https://webrtc.org/](https://webrtc.org/)
+This is precompiled google webrtc android library, [https://webrtc.org/](https://webrtc.org/).
+
+read [this article](https://medium.com/@abdularis/how-to-compile-native-webrtc-from-source-for-android-d0bac8e4c933) on how to compile webrtc for android.
 
 ## Usage
 Add repository in the root gradle file:

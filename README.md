@@ -4,6 +4,11 @@ This is precompiled google webrtc android library, [https://webrtc.org/](https:/
 
 read [this article](https://medium.com/@abdularis/how-to-compile-native-webrtc-from-source-for-android-d0bac8e4c933) on how to compile webrtc for android.
 
+Use maven to add .aar library into the existing maven repository using:
+```
+mvn install:install-file -Dfile=./google-webrtc-M74.aar -DgroupId=com.aar.app -DartifactId=google-webrtc -Dversion=M74 -Dpackaging=aar -DlocalRepositoryPath=./libwebrtc-android -DcreateChecksum=true
+```
+
 ## Usage
 Add repository in the root gradle file:
 ```xml

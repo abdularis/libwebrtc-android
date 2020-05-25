@@ -3,7 +3,7 @@
   <groupId>com.aar.app</groupId>
   <artifactId>google-webrtc</artifactId>
   <versioning>
-    <release>M79</release>
+    <release>M80</release>
     <versions>
       <version>M72</version>
       <version>M70</version>
@@ -11,7 +11,8 @@
       <version>M74</version>
       <version>M78</version>
       <version>M79</version>
+      <version>M80</version>
     </versions>
-    <lastUpdated>20191120041840</lastUpdated>
+    <lastUpdated>20200525073212</lastUpdated>
   </versioning>
 </metadata>

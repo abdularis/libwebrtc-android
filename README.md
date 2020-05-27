@@ -25,9 +25,9 @@ allprojects {
 }
 ```
 
-Add dependency to your app module (such as app/build.gradle), latest availabe stable version in this repo is **M80**:
+Add dependency to your app module (such as app/build.gradle), latest availabe stable version in this repo is **M83**:
 ```xml
 dependencies {
-    implementation 'com.aar.app:google-webrtc:M80'
+    implementation 'com.aar.app:google-webrtc:M83'
 }
 ```

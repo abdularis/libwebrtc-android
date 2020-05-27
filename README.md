@@ -1,15 +1,6 @@
-![webrtc.org](https://www.gstatic.com/devrel-devsite/prod/v35095b53655653106712feb44f96c6929ce012ae38486ad7db1de265cbd9b7ec/webrtc/images/lockup.svg)
 # Android WebRTC Library
 
-This is precompiled google webrtc library for android, [https://webrtc.org/](https://webrtc.org/).
-[repo branch](https://github.com/abdularis/libwebrtc-android/tree/repo)
-
-read [this article](https://medium.com/@abdularis/how-to-compile-native-webrtc-from-source-for-android-d0bac8e4c933) on how to compile webrtc for android.
-
-Use maven to add .aar library into the existing maven repository using:
-```
-mvn install:install-file -Dfile=./google-webrtc-M74.aar -DgroupId=com.aar.app -DartifactId=google-webrtc -Dversion=M74 -Dpackaging=aar -DlocalRepositoryPath=./libwebrtc-android -DcreateChecksum=true
-```
+![webrtc.org](https://www.gstatic.com/devrel-devsite/prod/v35095b53655653106712feb44f96c6929ce012ae38486ad7db1de265cbd9b7ec/webrtc/images/lockup.svg)
 
 ## Integrate Into Android Project
 Add repository in the root gradle file:
@@ -30,4 +21,16 @@ Add dependency to your app module (such as app/build.gradle), latest availabe st
 dependencies {
     implementation 'com.aar.app:google-webrtc:M83'
 }
+```
+
+## Description
+
+This is precompiled google webrtc library for android, [https://webrtc.org/](https://webrtc.org/).
+[repo branch](https://github.com/abdularis/libwebrtc-android/tree/repo)
+
+read [this article](https://medium.com/@abdularis/how-to-compile-native-webrtc-from-source-for-android-d0bac8e4c933) on how to compile webrtc for android.
+
+Use maven to add .aar library into the existing maven repository using:
+```
+mvn install:install-file -Dfile=./google-webrtc-M74.aar -DgroupId=com.aar.app -DartifactId=google-webrtc -Dversion=M74 -Dpackaging=aar -DlocalRepositoryPath=./libwebrtc-android -DcreateChecksum=true
 ```

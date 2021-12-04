@@ -1,6 +1,6 @@
 # Android WebRTC Library
 
-<img src="https://www.gstatic.com/devrel-devsite/prod/v35095b53655653106712feb44f96c6929ce012ae38486ad7db1de265cbd9b7ec/webrtc/images/lockup.svg" alt="webrtc.org" width="400">
+<img src="https://www.gstatic.com/devrel-devsite/prod/v70c5e166a48b2c4e0a0d27f0b12c8c47a28a215b513b1100ea89abd1a9e8a095/webrtc/images/lockup.svg" alt="webrtc.org" width="400">
 
 ## Integrate Into Android Project
 Add repository in the root gradle file:
